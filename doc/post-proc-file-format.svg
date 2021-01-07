@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1571"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="post-proc-file-format.svg">
+  <defs
+     id="defs1565">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1183"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1181" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path838"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="325.82214"
+     inkscape:cy="816.70476"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1031"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1568">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="12.486949"
+       y="13.726248"
+       id="text817"><tspan
+         sodipodi:role="line"
+         id="tspan815"
+         x="12.486949"
+         y="13.726248"
+         style="stroke-width:0.26458332px">Ananlysis pipeline</tspan></text>
+    <text
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="7.7923684"
+       y="24.343899"
+       id="text821"><tspan
+         sodipodi:role="line"
+         id="tspan819"
+         x="7.7923684"
+         y="24.343899"
+         style="stroke-width:0.26458332px">.tpx 原始数据</tspan></text>
+    <text
+       id="text825"
+       y="45.510567"
+       x="7.7923684"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332px"
+         y="45.510567"
+         x="7.7923684"
+         id="tspan823"
+         sodipodi:role="line">文本原始数据</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 19.320647,26.120387 V 40.672471"
+       id="path827"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="20.549067"
+       y="33.793312"
+       id="text1167"><tspan
+         sodipodi:role="line"
+         id="tspan1165"
+         x="20.549067"
+         y="33.793312"
+         style="font-size:2.82222223px;stroke-width:0.26458332px">解码: tpx3cam.cc</tspan></text>
+    <text
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="8.8507032"
+       y="66.677238"
+       id="text1171"><tspan
+         sodipodi:role="line"
+         id="tspan1169"
+         x="8.8507032"
+         y="66.677238"
+         style="stroke-width:0.26458332px">单发块数据</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path1179"
+       d="M 19.320647,47.287055 V 61.839138"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1183)" />
+    <text
+       id="text1235"
+       y="54.95998"
+       x="20.549067"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       xml:space="preserve"><tspan
+         style="font-size:2.82222223px;stroke-width:0.26458332px"
+         y="54.95998"
+         x="20.549067"
+         id="tspan1233"
+         sodipodi:role="line">分割: split.cc</tspan></text>
+    <text
+       id="text1258"
+       y="23.739143"
+       x="34.836575"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       xml:space="preserve"><tspan
+         style="font-size:2.82222223px;stroke-width:0.26458332px"
+         y="23.739143"
+         x="34.836575"
+         id="tspan1256"
+         sodipodi:role="line">frames_xxxxxx.tpx</tspan></text>
+    <text
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="34.836575"
+       y="44.905815"
+       id="text1262"><tspan
+         sodipodi:role="line"
+         id="tspan1260"
+         x="34.836575"
+         y="44.905815"
+         style="font-size:2.82222223px;stroke-width:0.26458332px">converted.dat</tspan></text>
+    <text
+       id="text1266"
+       y="66.072487"
+       x="34.836575"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       xml:space="preserve"><tspan
+         style="font-size:2.82222223px;line-height:0px;stroke-width:0.26458332px"
+         y="66.072487"
+         x="34.836575"
+         sodipodi:role="line"
+         id="tspan1282">info.dat, data_xxxxxx_yyyyyy.dat</tspan></text>
+    <text
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="90.295166"
+       y="14.28581"
+       id="text1270"><tspan
+         sodipodi:role="line"
+         id="tspan1268"
+         x="90.295166"
+         y="14.28581"
+         style="stroke-width:0.26458332px">生成数据文件</tspan><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="19.577477"
+         style="stroke-width:0.26458332px"
+         id="tspan1272" /><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="25.366049"
+         style="stroke-width:0.26458332px"
+         id="tspan1317">1. info.dat 信息汇总文件</tspan><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="30.657715"
+         style="stroke-width:0.26458332px"
+         id="tspan1319" /><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="35.949383"
+         style="fill:#008000;stroke-width:0.26458332px"
+         id="tspan890">n_valves                      3257</tspan><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="41.241047"
+         style="fill:#008000;stroke-width:0.26458332px"
+         id="tspan897">n_lasers_all                34161</tspan><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="46.532715"
+         style="fill:#008000;stroke-width:0.26458332px"
+         id="tspan899">n_events_all         55643824</tspan><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="51.824379"
+         style="fill:#008000;stroke-width:0.26458332px"
+         id="tspan901">n_lines                  55732563</tspan><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="57.116047"
+         style="fill:#008000;stroke-width:0.26458332px"
+         id="tspan1327" /><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="62.407715"
+         style="fill:#800000;stroke-width:0.26458332px"
+         id="tspan1356">tdc_valve_start       n_lasers          n_events</tspan><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="67.699379"
+         style="fill:#008000;stroke-width:0.26458332px"
+         id="tspan1329">0.002588546               14               822    628    406    282    ... </tspan><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="72.991043"
+         style="fill:#008000;stroke-width:0.26458332px"
+         id="tspan1331">0.036588572                 1               1</tspan><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="78.282715"
+         style="fill:#008000;stroke-width:0.26458332px"
+         id="tspan1333">...</tspan><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="83.574379"
+         style="fill:#008000;stroke-width:0.26458332px"
+         id="tspan1335"> 0.684589247              11              3149  4159  2794  1300   ...</tspan><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="88.866043"
+         style="stroke-width:0.26458332px"
+         id="tspan1323" /><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="94.157715"
+         style="stroke-width:0.26458332px"
+         id="tspan1313" /><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="99.946281"
+         style="stroke-width:0.26458332px"
+         id="tspan1315">2. data_xxxxxx_yyyyyy.dat 事件数据文件</tspan><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="105.73486"
+         style="stroke-width:0.26458332px"
+         id="tspan1274">xxxxxx：电磁阀序列下标</tspan><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="111.52342"
+         style="stroke-width:0.26458332px"
+         id="tspan1307">yyyyyy：脉冲TDC序列下标</tspan><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="116.81509"
+         style="stroke-width:0.26458332px"
+         id="tspan1358" /><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="122.10676"
+         style="fill:#008000;stroke-width:0.26458332px"
+         id="tspan1362" /><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="127.39842"
+         style="fill:#800000;stroke-width:0.26458332px"
+         id="tspan1395">tdc_laser_start</tspan><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="132.69009"
+         style="fill:#008000;stroke-width:0.26458332px"
+         id="tspan905">0.0845886216125488</tspan><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="137.98175"
+         style="fill:#800000;stroke-width:0.26458332px"
+         id="tspan1370">time_stamp         TOT    x   y</tspan><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="143.27342"
+         style="fill:#008000;stroke-width:0.26458332px"
+         id="tspan1366">0.08459011562		25	450	169</tspan><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="148.56509"
+         style="fill:#008000;stroke-width:0.26458332px"
+         id="tspan1368">0.08459010625		25	452	169</tspan><tspan
+         sodipodi:role="line"
+         x="90.295166"
+         y="153.85675"
+         style="fill:#008000;stroke-width:0.26458332px"
+         id="tspan1372">...</tspan></text>
+  </g>
+</svg>
