@@ -1,27 +1,18 @@
-TARGET  = main
+DIR_SRC     =   ./src
 
-CC		=	g++
-SRC		=	$(TARGET).cc
-OBJ		=	$(patsubst %.cc,%.o,$(filter %.cc,$(SRC))) \
-			$(patsubst %.f90,%.o,$(filter %.f90,$(SRC)))
+all:
+	cd $(DIR_SRC) && make
 
-EXE		=	$(TARGET)
-
-CFLAGS	+=	-g -std=c++17
-LFLAGS	+=  -L.
-FFLAGS	+=
-
-%.o : %.f90
-	$(FC) $< $(FFLAGS) -c -o $@
-
-%.o : %.cc
-	$(CC) $< $(CFLAGS) -c -o $@
-
-all : $(EXE)
-
-$(EXE) : $(OBJ)
-	$(CC) $(OBJ) $(LFLAGS) -o $@
+install:
+	if [ ! -d "./bin" ] ; then \
+		mkdir ./bin; \
+	fi
+	mv $(DIR_SRC)/main ./bin/main
 
 clean:
-	$(RM) $(OBJ)
-	$(RM) *~
+	cd $(DIR_SRC) && make clean
+
+cleanall: clean
+	if [ -d "./bin" ] ; then \
+		rm -r ./bin; \
+	fi
