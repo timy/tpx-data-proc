@@ -1,13 +1,13 @@
 TARGET  = main
 
 CC		=	g++
-SRC		=	$(TARGET).cc
+SRC		=	tpx3parser.cc splitter.cc $(TARGET).cc
 OBJ		=	$(patsubst %.cc,%.o,$(filter %.cc,$(SRC))) \
 			$(patsubst %.f90,%.o,$(filter %.f90,$(SRC)))
 
 EXE		=	$(TARGET)
 
-CFLAGS	+=	-g -std=c++17
+CFLAGS	+=	-g -std=c++17 -Wall
 LFLAGS	+=  -L.
 FFLAGS	+=
 
