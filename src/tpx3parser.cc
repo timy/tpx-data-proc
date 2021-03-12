@@ -49,7 +49,7 @@ void TPX3Parser::process() {
 		file_tpx.read((char*)&curr_packet, sizeof(unsigned long long));
 		for (int i = 0; i < 8; i ++) {
 			HeaderBuffer[i] = (char)(curr_packet >> 8*i);
-			// file_test << to_binary<short> (HeaderBuffer[i]) << " (" << HeaderBuffer[i] << ")" << "\t";
+			// file_dbg << to_binary<short> (HeaderBuffer[i]) << " (" << HeaderBuffer[i] << ")" << "\t";
 		}			
 		
 		if (HeaderBuffer[0] == 'T' && HeaderBuffer[1] == 'P' && HeaderBuffer[2] == 'X') {
@@ -61,7 +61,7 @@ void TPX3Parser::process() {
 			// read the data chunk
 			for (int j = 0; j < size / 8; j ++) {
 				file_tpx.read((char*)&curr_packet, sizeof(unsigned long long));
-				// file_test << to_binary <unsigned long long> (curr_packet) << endl;
+				// file_dbg << to_binary <unsigned long long> (curr_packet) << endl;
 				int packet_type = curr_packet >> 60; // the leftest 4 bits
 				switch (packet_type) {
 				case 0xb:
