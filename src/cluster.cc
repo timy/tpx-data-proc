@@ -4,6 +4,69 @@
 
 using namespace std;
 
+
+ostream& operator << (ostream& os, const Pixel& pixel) {
+	os << pixel.toa << " " << pixel.tot << " " << pixel.x << " " << pixel.y << endl;
+	return os;
+}
+
+void Cluster::addPixel(RawPixel p) {
+    Pixel pixel;
+    pixel.x = p.x;
+    pixel.y = p.y;
+    pixel.toa = p.toa;
+    pixel.tot = p.tot;
+    pixels.push_back(p);
+};
+
+void Cluster::characterize() {
+    n_pixels = pixels.size();   // number of pixels within the cluster
+    idx_max_tot = 0;
+    double max_tot = pixels[0].tot;
+    idx_min_toa = 0;
+    double min_toa = pixels[0].toa;
+
+    int count = 0;
+    sum_tot = 0.;
+    for (auto pixel : pixels) {
+        if (pixel.tot > max_tot) {
+            max_tot = pixel.tot;
+            idx_max_tot = count; // index of the smallest ToT
+        }
+        if (pixel.toa < min_toa) {
+            min_toa = pixel.toa;
+            idx_min_toa = count; // index of the largest ToA
+        }
+        sum_tot += pixel.tot;    // ToT sum over the whole cluster
+        count ++;
+    }
+};
+
+void Cluster::centroiding() {
+    double delta_tot_sum = 0;
+    xc = 0;
+    yc = 0;
+    for (auto pixel : pixels) {
+        xc += pixel.tot * pixel.x;
+        yc += pixel.tot * pixel.y;
+        delta_tot_sum += pixel.tot;
+    }
+    xc /= delta_tot_sum;
+    yc /= delta_tot_sum;		
+}
+
+void Cluster::geom_center() {
+    gcx = 0;
+    gcy = 0;
+    for (auto pixel : pixels) {
+        gcx += pixel.x;
+        gcy += pixel.y;
+    }
+    gcx /= pixels.size();
+    gcy /= pixels.size();
+}
+
+
 Clusterizer::Clusterizer(vector<RawPixel>* pixels) 
     : n_clusters(0), pixels_in(pixels), require_delete(false) {
 }
