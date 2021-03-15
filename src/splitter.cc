@@ -7,31 +7,16 @@
 
 namespace fs = std::filesystem;
 
-void create_res_directory(const fs::path& res_dir) {
-    if (!fs::exists(res_dir)) {
-        fs::create_directory(res_dir);
-    } else {
-        if (!fs::is_directory(res_dir)) {
-            fs::create_directory(res_dir);
-        } else {
-            std::cout << "Found an existing directory " << res_dir << std::endl;
-            std::cout << "Remove it first and retry." << std::endl;
-            exit(-1);
-        }
-    }
-}
-
-Splitter::Splitter(const char* filename_input) : count_valves(0), count_lasers(0), count_events(0), tdc_count(0), 
+Splitter::Splitter(const char* filename_input, std::filesystem::path dir_output) 
+    : count_valves(0), count_lasers(0), count_events(0), tdc_count(0), 
     count_lines(0), count_lasers_all(0), count_events_all(0),
-    res_dir(fs::current_path() / "res/"), state(S_ENTRY) {
+    res_dir(dir_output), state(S_ENTRY) {
 
 	file_src_data.open(filename_input);
 	if (!file_src_data) {
 		std::cout << "Input data file \"" << filename_input << "\" is not accessible." << std::endl;
 		exit(-1);
 	}
-    
-    create_res_directory(res_dir);
 }
 
 Splitter::~Splitter() {
@@ -94,7 +79,7 @@ void Splitter::process() {
     std::string line;
     std::istringstream ss;
 
-    std::string filename_tmp = res_dir.string() + "info.tmp";
+    std::string filename_tmp = res_dir.string() + "/info.tmp";
 
     file_res_info.open(filename_tmp);
 
@@ -115,7 +100,7 @@ void Splitter::process() {
     file_res_info.close();
 
     // prepend data_info to new info_file and transfer the detailed information from the temp_info_file
-    file_res_info.open(res_dir.string() + "info.dat");
+    file_res_info.open(res_dir.string() + "/info.dat");
     file_res_info << "n_valves " << std::setw(20) << count_valves << std::endl;
     file_res_info << "n_lasers_all " << std::setw(16) << count_lasers_all << std::endl;
     file_res_info << "n_events_all " << std::setw(16) << count_events_all << std::endl;
@@ -143,7 +128,7 @@ void Splitter::open_event_data_file(int i_valve, int i_laser) {
         file_res_data.close();
 
     std::stringstream ss;
-    ss << res_dir.string() << "data_";
+    ss << res_dir.string() << "/data_";
     ss << std::setfill('0') << std::setw(6) << i_valve;
     ss << "_";
     ss << std::setfill('0') << std::setw(6) << i_laser;

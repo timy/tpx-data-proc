@@ -6,7 +6,7 @@
 class Splitter {
 
 public:
-    Splitter(const char* filename_input);
+    Splitter(const char* filename_input, std::filesystem::path dir_output);
     virtual ~Splitter();
     void process();
 
