@@ -1,9 +1,8 @@
 #include "cluster.h"
 #include <fstream>
 #include <string>
-
+#include <iomanip>
 using namespace std;
-
 
 ostream& operator << (ostream& os, const Pixel& pixel) {
 	os << pixel.toa << " " << pixel.tot << " " << pixel.x << " " << pixel.y << endl;
@@ -147,6 +146,6 @@ void Clusterizer::check() {
 void Clusterizer::dump_to_file(const char* filename) {
     ofstream file(filename);
     for (auto pixel : pixels_out)
-        file << pixel;
+        file << setprecision(15) << pixel;
     file.close();
 }

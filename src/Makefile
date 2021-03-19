@@ -1,7 +1,7 @@
 TARGET  = main
 
 CC		=	g++
-SRC		=	tpx3parser.cc splitter.cc cluster.cc $(TARGET).cc
+SRC		=	tpx3parser.cc splitter.cc cluster.cc time-walk.cc $(TARGET).cc
 OBJ		=	$(patsubst %.cc,%.o,$(filter %.cc,$(SRC))) \
 			$(patsubst %.f90,%.o,$(filter %.f90,$(SRC)))
 

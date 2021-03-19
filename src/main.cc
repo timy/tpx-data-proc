@@ -2,6 +2,7 @@
 #include "tpx3parser.h"
 #include "splitter.h"
 #include "cluster.h"
+#include "time-walk.h"
 #include "directory.h"
 
 void inquire(const char* msg) {
@@ -52,7 +53,17 @@ int main(int argc, char* argv[]) {
     cl.dump_to_file(filename_clst_out.c_str());
     // clf.check();
 
+    std::cout << "========================================" << std::endl;
+    std::cout << "Step 3: time walk correction" << std::endl;    
+    Directory dir_res_step4(dir_res_root.path() / "step4");
+    string filename_twc_inp = dir_res_step2.name() + "/data_000001_000011.dat";
+    string filename_twc_out = dir_res_step4.name() +  "/twc_000001_000011.dat";
+    TimeWalkCorrector twc(filename_twc_inp.c_str());
+    twc.process();
+    twc.dump_to_file(filename_twc_out.c_str());
+
     std::cout << "Hasta la vista!" << std::endl;
 
+    
     return 0;
 }
