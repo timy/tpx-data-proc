@@ -124,7 +124,7 @@ void Splitter::write_event_data_line() {
 }
 
 void Splitter::open_event_data_file(int i_valve, int i_laser) {
-    if (!(i_valve == 1 && i_laser == 1))
+    if (file_res_data.is_open())
         file_res_data.close();
 
     std::stringstream ss;
