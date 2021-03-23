@@ -12,6 +12,10 @@ TimeWalkCorrector::TimeWalkCorrector(const char* filename)
     : require_delete(true) {
 
     ifstream file(filename);
+    if (!file) {
+        cout << "TimeWalkCorrector: cannot read file \"" << filename << "\"" << endl;
+        exit(-1);
+    }
     string line;
     Pixel pixel;
     pixels = new vector<Pixel>;
